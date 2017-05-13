@@ -65,6 +65,9 @@ Opensearch settings
 ``OPENSEARCH_SEARCH_URL``
     Contains a django URL name to search content. Defaults to ``u'search'``.
 
+``OPENSEARCH_SEARCH_QUERYSTRING``
+    Contains the querystring to prepend to search parameter. Defaults to ``u'q='``.
+
 
 Licensing
 ---------
