@@ -68,6 +68,9 @@ Opensearch settings
 ``OPENSEARCH_INPUT_ENCODING``
     Contains a string that indicates that the search engine supports search requests encoded with the specified character encoding. Defaults to ``u"UTF-8"``.
 
+``OPENSEARCH_SEARCH_QUERYSTRING``
+    Contains the querystring to prepend to search parameter. Defaults to ``u'q='``.
+
 
 Licensing
 ---------
